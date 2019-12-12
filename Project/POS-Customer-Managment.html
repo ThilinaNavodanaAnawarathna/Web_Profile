@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>G+ Super City</title>
+    <link rel="stylesheet" href="assents/CSS/normalize.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" href="assents/Image/icone.png" type="Img/png">
+    <link rel="stylesheet" href="assents/CSS/front-a/css/all.css">
+    <style>
+        body>main{
+            height: 73vh;
+            width: 98vw;
+            background: linear-gradient(45deg, black, transparent);
+            position: relative;
+            top: 1vh;
+            overflow: hidden;
+            padding-bottom: 5vh;
+        }
+        body>main>section{
+            position: relative;
+            width: 98vw;
+                    }
+        body>main>section>div:nth-child(1){
+            position: relative;
+            height: 41vh;
+            width: 98%;
+            border: 2px whitesmoke solid;
+            display: block;
+            top: 1vh;
+            left: 1vw;
+            border-radius: 36px;
+            background: darkslategray;
+
+        }
+        body>header{
+
+            background: #4b0082;
+            height: 18vh;
+            width: 98vw;
+            position: relative;
+            z-index: 12;
+            display: inline-flex;
+
+        }
+        body>main>section>div:nth-child(2){
+            position: relative;
+            height: 45vh;
+            width: 47%;
+            border: 2px whitesmoke solid;
+            display: block;
+            top: -45vh;
+            left: 51vw;
+            display: none;
+
+        }
+        body>main>section>div:nth-child(3){
+            position: relative;
+            height: 32vh;
+            width: 98%;
+            border: 2px whitesmoke solid;
+            display: block;
+            top: 2vh;
+            left: 1vw;
+            border-radius: 22px;
+            background: darkslategray;
+
+        }
+        label{
+            color: white;
+            font-size: 24px;
+            margin-left: 1vh;
+        }
+        input{
+            margin-left: 1vh;
+            width: 24vw;
+            height: 3vh;
+            border-radius: 17px;
+        }
+        th{
+            width: 19vw;
+            color: white;
+            margin-left: 1vw;
+        }
+        td{
+            height: 2vh;
+        }
+        body>footer {
+
+            background: #4b0082;
+            height: 11vh;
+            width: 98vw;
+            position: relative;
+            margin-top: 2vh;
+        }
+        header>img{
+            height: 96px;
+            margin-top: 2vh;
+            margin-left: 1vw;
+        }
+        header>h1{
+            padding-top: 6vh;
+            margin: 0;
+            font-size: 47px;
+            color: cornflowerblue;
+        }
+
+        header > ul {
+            margin: 0;
+            list-style: none;
+            position: absolute;
+            right: 0;
+            top: 38px;
+            color: black;
+        }
+
+        header > ul > li {
+            display: inline;
+            font-size: 23px;
+            color: white;
+            padding: 15px;
+            cursor: pointer;
+        }
+
+        header > ul > i {
+            color: white;
+            font-size: 24px;
+
+        }
+        header ul li:hover{
+            color: black;
+            /*font-size: 0px;*/
+            background-color: white;
+            /*transition: font-size 2s, background-color 3s, color 5s;*/
+            transition: all 1s;
+        }
+        footer>h2{
+            alignment: center;
+            margin: 0;
+            color: white;
+        }
+        footer>h3{
+            alignment: center;
+            margin: 0;
+            color: white;
+        }
+        #add{
+            background: #2dac05;
+            width: 10vw;
+            height: 4vh;
+            cursor: pointer;
+        }
+        #reset{
+            background: red;
+            width: 10vw;
+            height: 4vh;
+            cursor: pointer;
+        }
+        #remove{
+            background: red;
+            width: 10vw;
+            height: 4vh;
+            cursor: pointer;
+        }
+
+        #edit{
+            background: navy;
+            width: 10vw;
+            height: 4vh;
+            cursor: pointer;
+        }
+
+        /*tablet*/
+        @media all and (min-width: 425px) and (max-width: 768px){
+            input{
+                width: 33vw;
+            }
+            label{
+                font-size: 17px;
+            }
+            #reset{
+                font-size: 11px;
+                width: 16vw;
+            }
+            #add{
+                font-size: 11px;
+                width: 16vw;
+            }
+            #edit{
+                font-size: 11px;
+                width: 16vw;
+            }
+            #remove{
+                font-size: 11px;
+                width: 16vw;
+            }
+            header>h1{
+                font-size: 22px;
+            }
+            header>ul>li>a{
+                font-size: 15px;
+            }
+            header img{
+                height: 72px;
+                width: 53px;
+            }
+            body>main>section>div:nth-child(2){
+                height: 41vh;
+                top: -41vh;
+            }
+            body>main>section>div:nth-child(1){
+                height: 41vh;
+            }
+            body>main>section>div:nth-child(3){
+                top: 2vh;
+                height: 35vh;
+            }
+            body>main{
+                height: 75vh;
+            }
+            body>footer>h2{
+                font-size: 19px;
+            }
+            body>footer>h3{
+                font-size: 17px;
+            }
+
+
+        }
+        /*mobail l*/
+        @media all and (min-width: 375px) and (max-width: 425px){
+            input{
+                width: 33vw;
+            }
+            label{
+                font-size: 17px;
+            }
+            #reset{
+                font-size: 11px;
+                width: 20vw;
+            }
+            #add{
+                font-size: 11px;
+                width: 20vw;
+            }
+            #edit{
+                font-size: 11px;
+                width: 20vw;
+            }
+            #remove{
+                font-size: 11px;
+                width: 20vw;
+            }
+            header>h1{
+                font-size: 22px;
+            }
+            header>ul>li>a{
+                font-size: 15px;
+            }
+            header img{
+                height: 72px;
+                width: 53px;
+            }
+            body>main>section>div:nth-child(2){
+                height: 41vh;
+                top: -41vh;
+                width: 95vw;
+            }
+            body>main>section>div:nth-child(1){
+                height: 41vh;
+                width: 95vw;
+            }
+            body>main>section>div:nth-child(3){
+                top: 2vh;
+                height: 40vh;
+                width: 95vw;
+            }
+            body>main{
+                height: 82vh;
+            }
+            body>footer>h2{
+                font-size: 19px;
+            }
+            body>footer>h3{
+                font-size: 17px;
+            }
+            body>header>ul{
+                top: 76px;
+            }
+        }
+        /*mobail m*/
+        @media all and (min-width: 320px) and (max-width: 375px){
+            input{
+                width: 33vw;
+            }
+            label{
+                font-size: 17px;
+            }
+            #reset{
+                font-size: 11px;
+                width: 20vw;
+            }
+            #add{
+                font-size: 11px;
+                width: 20vw;
+            }
+            #edit{
+                font-size: 11px;
+                width: 20vw;
+            }
+            #remove{
+                font-size: 11px;
+                width: 20vw;
+            }
+            header>h1{
+                font-size: 22px;
+            }
+            header>ul>li>a{
+                font-size: 15px;
+            }
+            header img{
+                height: 72px;
+                width: 53px;
+            }
+            body>main>section>div:nth-child(2){
+                height: 41vh;
+                top: -41vh;
+                width: 95vw;
+            }
+            body>main>section>div:nth-child(1){
+                height: 41vh;
+                width: 95vw;
+            }
+            body>main>section>div:nth-child(3){
+                top: 2vh;
+                height: 40vh;
+                width: 95vw;
+            }
+            body>main{
+                height: 82vh;
+            }
+            body>footer>h2{
+                font-size: 17px;
+            }
+            body>footer>h3{
+                font-size: 15px;
+            }
+            body>header>ul{
+                top: 76px;
+            }
+        }
+
+
+    </style>
+
+</head>
+<body>
+<header>
+    <img src="Img/icone.png" alt="logo">
+    <h1>G+ Super City</h1>
+    <ul>
+
+
+        <li><a href="POS-Item-Managment.html"style="
+        color: darkgray;text-decoration: none">Item Manage</a></li>
+
+        <li><a href="POS_System.html"style="
+        color: darkgray;text-decoration: none">Purchase Orders</a></li>
+    </ul>
+</header>
+    <main>
+        <section>
+
+            <div>
+                <br><br>
+
+                <label for="cusid1">Customer ID : </label>
+                <input type="text" placeholder="Customer ID"id="cusid1"name="A"><br><br>
+                <label >Customer Name : </label>
+                <input type="text"placeholder="Customer Name"id=itemcode name="B"><br><br>
+                <label >Contact : </label>
+                <input type="text"placeholder="Contact"id="curqty"name="C"><br><br>
+                <label >NIC : </label>
+                <input type="number"placeholder="Nic"id="qty"name="D"><br><br>
+
+                <input type="submit" value="Add" id="add">
+                <input type="reset" id="reset">
+
+            </div>
+            <div>
+                <!--<fieldset ><legend>Customer Details</legend>-->
+                    <br><br>
+
+
+            </div>
+            <div>
+                <br>
+                <table border="4" style="border:  white ">
+
+                    <thead>
+                    <tr>
+                        <th>Customer ID</th>
+                        <th>Customer Name</th>
+                        <th>Contact</th>
+                        <th>Customer Address</th>
+                        <th>NIC</th>
+
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+                    </tbody>
+
+
+
+                </table>
+                <br>
+                <input type="submit" value="Edit" id="edit">
+                <input type="button"value="Remove" id="remove">
+
+
+            </div>
+
+
+        </section>
+    </main>
+<footer>
+    <h2 align="center">Create by Thilina Navodana Anawarathna</h2>
+    <br>
+    <h3 align="center">Student Of "Institute Of Softwere Engineering"</h3>
+
+</footer>
+
+</body>
+</html>

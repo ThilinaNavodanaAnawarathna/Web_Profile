@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>G+ Super City</title>
+    <meta name="viewport"content="width=device-width,initial-scale">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<header>
+<nav class="navbar navbar-dark bg-dark fixed-top">
+    <h1 class="text-warning">G+ Super City</h1>
+    <div class="btn-group">
+    <button class="btn btn-success border"onclick="location.href='Customer Form.html'">Customer Form</button>
+    <button class="btn btn-success border "onclick="location.href='Item Form.html'">Item Form</button>
+    </div>
+</nav>
+</header>
+<br>
+<br>
+<br>
+<section class="btn-group">
+<section class="m-2 bg-light col-7">
+    <form>
+        <div class="form-row">
+
+            <div class="form-group col-md-6">
+                <label for="cusid">Customer ID</label>
+                <input type="text" class="form-control" id="cusid" placeholder="Customer ID">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="ordid">Order ID</label>
+                <input type="text" class="form-control" id="ordid" placeholder="orderid">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="date">Date</label>
+            <input type="date" class="form-control" id="date" placeholder="Date">
+        </div>
+        <div class="form-row">
+
+            <div class="form-group col-md-6">
+                <label for="item">Item Name</label>
+                <select id="item" class="form-control">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                </select>
+            </div>
+            <div class="form-group col-md-2">
+                <label for="crqty">Current Qty</label>
+                <input type="text" class="form-control" id="crqty">
+            </div>
+            <div class="form-group col-md-2">
+                <label for="price">Unit Price</label>
+                <input type="text" class="form-control" id="price">
+            </div>
+            <div class="form-group col-md-2">
+                <label for="qty">Qty</label>
+                <input type="number" class="form-control" id="qty">
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Add Item</button>
+        <br>
+    </form>
+</section>
+<section class="bg-light m-2 col-8">
+    <table class="table">
+        <thead class="thead-dark">
+        <tr>
+            <th scope="col">Description</th>
+            <th scope="col">Unit Price</th>
+            <th scope="col">Qty</th>
+            <th scope="col">Total</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th>Sunlight</th>
+            <td>30.00</td>
+            <td>5</td>
+            <td>150.00</td>
+        </tr>
+        <tr>
+            <th>Signal L</th>
+            <td>120.00</td>
+            <td>2</td>
+            <td>240.00</td>
+        </tr>
+        <tr>
+            <th>Atles 80pg</th>
+            <td>45.00</td>
+            <td>4</td>
+            <td>180.00</td>
+        </tr>
+        </tbody>
+    </table>
+    <button type="button" class="btn btn-primary">Edit</button>
+    <button type="button" class="btn btn-danger">Remove</button>
+
+
+</section>
+</section>
+
+<section class="bg-light m-2">
+    <form>
+        <br>
+        <div class="form-group">
+            <label for="total">Total Ammount</label>
+            <input type="text" class="form-control" id="total" placeholder="Rs.00.00">
+        </div>
+        <div class="form-group">
+            <label for="recived">Amount Received</label>
+            <input type="text" class="form-control" id="recived" placeholder="Rs.00.00">
+        </div>
+        <div class="form-group">
+            <label for="dis">Discount</label>
+            <input type="text" class="form-control" id="dis" placeholder="Rs.00.00">
+        </div>
+        <div class="form-group">
+            <label for="bal">Balance Amount</label>
+            <input type="text" class="form-control" id="bal" placeholder="Rs.00.00">
+        </div>
+        <button type="button" class="btn btn-success">Place Order</button>
+        <button type="button" class="btn btn-danger">Cansal</button>
+    </form>
+</section>
+<footer>
+    <nav class="navbar navbar-dark bg-dark">
+        <h1 class="text-warning text-center">Thank You....</h1>
+
+    </nav>
+</footer>
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

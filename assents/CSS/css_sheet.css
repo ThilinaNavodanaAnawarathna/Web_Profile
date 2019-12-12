@@ -1,0 +1,1490 @@
+body>main{
+    height: 100%;
+    width: 100%;
+    background: #9e9e9ee0;
+    position: relative;
+    overflow: hidden;
+}
+#mainsection{
+    position: relative;
+    width: 100vw;
+    background: lavender;
+    overflow: hidden;
+
+}
+
+
+header{
+    position: fixed;
+    margin: auto;
+    width: 99%;
+    top: 20px;
+    height: 70px;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    box-shadow: 3px 3px 10px -4px white;
+    background-color: rgba(29, 29, 29, 0.8);
+}
+header>ul{
+    margin: auto;
+    list-style: none;
+    position: absolute;
+    right: 10px;
+    top: 25px;
+    bottom: 0;
+    color: black;
+}
+header > ul > li {
+    display: inline;
+    font-size: 18px;
+    padding: 20px;
+    cursor: pointer;
+    top: 0;
+    bottom: 0;
+    font-family: "Roboto", sans-serif;
+}
+header > ul > li > a{
+    color: white;
+    z-index: 1;
+    text-decoration: none;
+}
+header>a>i{
+    position: absolute;
+    top: 21px;
+    font-size: 30px;
+    color: white;
+    left: 20px;
+    cursor: pointer;
+}
+header>a>i:hover{
+    color: lightgray;
+}
+header > ul > li >:hover{
+    color: lightgray;
+    top: 25px;
+}
+header>p{
+    position: absolute;
+    margin: auto;
+    left: 100px;
+    top: 18px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+
+
+
+#headWall{
+    width: 100vw;
+    height: 80vh;
+    background-color: lavender;
+}
+#wallpaper{
+    width: 100%;
+    height: 100%;
+}
+#wallpaper>img{
+    width: 100%;
+    height: 100%;
+}
+#profilePic{
+    width: 214px;
+    height: 275px;
+    border: 10px whitesmoke solid;
+    position: relative;
+    left: 4vw;
+    bottom: 23vh;
+    display: inline-block;
+}
+#profilePic>img{
+    width: 214px;
+    height: 275px;
+}
+#name{
+    height: 118px;
+    width: 68%;
+    position: relative;
+    bottom: 270px;
+    left: 27vw;
+}
+#name>h1{
+    margin: 0;
+    font-size: 4vw;
+}
+#name>hr{
+    background: black;
+    position: absolute;
+    width: 65vw;
+    height: 4px;
+
+}
+#txtAbout{
+    position: relative;
+    margin-left: 70px;
+    font-size: 36px;
+    bottom: 33vh;
+    color: darkslategrey;
+}
+#about{
+    background: aliceblue;
+    bottom: 34vh;
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 14px;
+}
+
+#txtSkill{
+    position: relative;
+    margin-left: 70px;
+    font-size: 36px;
+    bottom: 30vh;
+    color: darkslategrey;
+}
+
+#skill{
+    background: aliceblue;
+    bottom: 30vh;
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 14px;
+}
+#javah2{
+    position: absolute ;
+    top: 12% ;
+    left: 26%;
+
+}
+#cssh2{
+    position: absolute ;
+    top: 34% ;
+    left: 26%;
+}
+#htmlh2{
+    position: absolute ;
+    top: 59% ;
+    left: 26%;
+}
+#mysqlh2{
+    position: absolute ;
+    top: 82% ;
+    left: 26%;
+}
+
+#skill>div:first-child{
+    height: 105px;
+    width: 105px;
+    border-radius: 100%;
+    position: relative;
+    border: 2px black solid;
+    margin-left: 41px;
+    margin-bottom: 74px;
+    top: 15px;
+
+}
+#skill>div:nth-child(2){
+    height: 105px;
+    width: 105px;
+    border-radius: 100%;
+    position: relative;
+    border: 2px black solid;
+    margin-left: 41px;
+    margin-bottom: 60px;
+
+}
+#skill>div:nth-child(3){
+    height: 105px;
+    width: 105px;
+    border-radius: 100%;
+    position: relative;
+    border: 2px black solid;
+    margin-left: 41px;
+    margin-bottom: 45px;
+
+}
+#skill>div:nth-child(4){
+    height: 105px;
+    width: 105px;
+    border-radius: 100%;
+    position: relative;
+    border: 2px black solid;
+    margin-left: 41px;
+    margin-bottom: 45px;
+
+}
+#sp{
+    height: 4px;
+    width: 70%;
+    position: absolute;
+    background: red;
+    bottom: 91%;
+    left: 18%;
+    animation: skill 10s infinite;
+}
+#sp1{
+    height: 4px;
+    width: 70%;
+    position: absolute;
+    background: blue;
+    bottom: 68%;
+    left: 18%;
+    animation: skill2 10s infinite;
+}
+#sp2{
+    height: 4px;
+    width: 70%;
+    position: absolute;
+    background: green;
+    bottom: 43%;
+    left: 18%;
+    animation: skill3 10s infinite;
+}
+#sp3{
+    height: 4px;
+    width: 70%;
+    position: absolute;
+    background: black;
+    bottom: 20%;
+    left: 18%;
+    animation: skill4 10s infinite;
+}
+
+/*-------------------------------------------------*/
+
+#asingment{
+    background: aliceblue;
+    bottom: 26vh;
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 14px;
+    display: flex;
+}
+
+
+
+#oneAs{
+    height: 195px;
+    width: 21vw;
+    position: relative;
+    border: 4px black solid;
+    margin-left: 41px;
+    margin-bottom: 74px;
+    top: 15px;
+    box-shadow: 1px 1px 6px 0px rgba(103, 103, 103, 0.3);
+    transition: all 0.5s ease;
+    transform-style: preserve-3d;
+    margin-right: 110px;
+    animation: borderAnimation infinite 10s;
+
+}
+#twoAs{
+    height: 195px;
+    width: 21vw;
+    position: relative;
+    border: 4px black solid;
+    margin-left: 41px;
+    margin-bottom: 74px;
+    top: 15px;
+    box-shadow: 1px 1px 6px 0px rgba(103, 103, 103, 0.3);
+    transition: all 0.5s ease;
+    transform-style: preserve-3d;
+    animation: borderAnimation infinite 10s;
+    margin-right: 110px;
+
+}
+#threeAs{
+    height: 195px;
+    width: 21vw;
+    position: relative;
+    border: 4px black solid;
+    margin-left: 41px;
+    margin-bottom: 74px;
+    top: 15px;
+    box-shadow: 1px 1px 6px 0px rgba(103, 103, 103, 0.3);
+    transition: all 0.5s ease;
+    transform-style: preserve-3d;
+    margin-right: 110px;
+    animation: borderAnimation infinite 10s;
+
+}
+
+#txtAssingment{
+    position: relative;
+    margin-left: 70px;
+    font-size: 36px;
+    bottom: 28vh;
+    color: darkslategrey;
+}
+#backOne{
+    height: 195px;
+    width: 100%;
+    position: absolute;
+    background: white;
+    z-index: 2;
+}
+#backtwo{
+    height: 195px;
+    width: 100%;
+    position: absolute;
+    background: white;
+    z-index: 2;
+}
+#backthree{
+    height: 195px;
+    width: 100%;
+    position: absolute;
+    background: white;
+    z-index: 2;
+}
+.button{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 100px;
+    width: 80px;
+    height: 40px;
+    border: 3px solid dimgray;
+    background: white;
+    color: dimgray;
+    font-family: sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+.button:hover{
+    background: #eeeeee;
+    border: solid #ff253a;
+    color: #ff253a;
+}
+.front{
+    backface-visibility: hidden;
+    transform: rotateY(0deg);
+    overflow: hidden;
+}
+.back{
+    backface-visibility: hidden;
+    overflow: hidden;
+    transform: rotateY(180deg);
+}
+#oneAs:hover{
+    transform: rotateY(180deg);
+
+}
+#twoAs:hover{
+    transform: rotateY(180deg);
+
+}
+#threeAs:hover{
+    transform: rotateY(180deg);
+
+}
+/*-----------------------------------------------------------------------------------------*/
+#txtProject{
+    position: relative;
+    margin-left: 70px;
+    font-size: 36px;
+    bottom: 22vh;
+    color: darkslategrey;
+}
+#project{
+    background: aliceblue;
+    bottom: 22vh;
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 14px;
+    display: flex;
+}
+#onePo{
+    height: 195px;
+    width: 21vw;
+    position: relative;
+    border: 4px black solid;
+    margin-left: 41px;
+    margin-bottom: 74px;
+    top: 15px;
+    box-shadow: 1px 1px 6px 0px rgba(103, 103, 103, 0.3);
+    transition: all 0.5s ease;
+    transform-style: preserve-3d;
+    margin-right: 110px;
+    animation: borderAnimation infinite 10s;
+
+}
+#backOnePo{
+    height: 195px;
+    width: 100%;
+    position: absolute;
+    background: white;
+    z-index: 2;
+}
+#twoPo{
+    height: 195px;
+    width: 21vw;
+    position: relative;
+    border: 4px black solid;
+    margin-left: 41px;
+    margin-bottom: 74px;
+    top: 15px;
+    box-shadow: 1px 1px 6px 0px rgba(103, 103, 103, 0.3);
+    transition: all 0.5s ease;
+    transform-style: preserve-3d;
+    animation: borderAnimation infinite 10s;
+    margin-right: 110px;
+
+}
+#threePo{
+    height: 195px;
+    width: 21vw;
+    position: relative;
+    border: 4px black solid;
+    margin-left: 41px;
+    margin-bottom: 74px;
+    top: 15px;
+    box-shadow: 1px 1px 6px 0px rgba(103, 103, 103, 0.3);
+    transition: all 0.5s ease;
+    transform-style: preserve-3d;
+    margin-right: 110px;
+    animation: borderAnimation infinite 10s;
+
+}
+
+
+#backtwoPo{
+    height: 195px;
+    width: 100%;
+    position: absolute;
+    background: white;
+    z-index: 2;
+}
+#backthreePo{
+    height: 195px;
+    width: 100%;
+    position: absolute;
+    background: white;
+    z-index: 2;
+}
+#onePo:hover{
+    transform: rotateY(180deg);
+
+}
+#twoPo:hover{
+    transform: rotateY(180deg);
+
+}
+#threePo:hover{
+    transform: rotateY(180deg);
+
+}
+
+/*--------------------------------------------------------------------------------------------*/
+footer{
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    height: 200px;
+    background: lavender;
+}
+
+footer hr{
+    position: absolute;
+    margin: auto;
+    width: 90vw;
+    top: 10px;
+    left: 0;
+    right: 0;
+    background-color: black;
+    height: 3px;
+    border: none;
+
+}
+
+footer div{
+    position: relative;
+    top: 20px;
+}
+footer div ul{
+    list-style: none;
+}
+footer div ul li{
+    position: relative;
+    display: inline;
+    left: -20px;
+    padding: 20px;
+    font-size: 20px;
+    color: black;
+}
+footer div ul li a{
+    color: black;
+}
+footer div ul li a :hover{
+    color: #2879FF;
+}
+#thanx{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: black;
+}
+#reserv{
+    font-family: Calibri;
+    font-size: 16px;
+    color: black;
+}
+/*-----------------------------------------------------------------------------------------------*/
+
+@keyframes borderAnimation {
+    10%{
+        border: 4px black solid;
+
+    }
+    20%{
+        border: 4px red solid;
+
+    }
+    30%{
+        border: 4px green solid;
+
+    }
+    40%{
+        border: 4px blue solid;
+
+    }
+    50%{
+        border: 4px orange solid;
+
+    }
+    60%{
+        border: 4px crimson solid;
+
+    }
+    70%{
+        border: 4px purple solid;
+
+    }
+    80%{
+        border: 4px chartreuse solid;
+
+    }
+    90%{
+        border: 4px aqua solid;
+
+    }
+    100%{
+        border: 4px aliceblue solid;
+
+    }
+
+
+
+}
+
+@keyframes skill {
+    from{
+        width: 0;
+
+    }
+    to{
+        width: 70%;
+
+    }
+
+}
+@keyframes skill2 {
+    from{
+        width: 0;
+
+    }
+    to{
+        width: 50%;
+
+    }
+
+}
+@keyframes skill3 {
+    from{
+        width: 0;
+
+    }
+    to{
+        width: 65%;
+
+    }
+
+}
+@keyframes skill4 {
+    from{
+        width: 0;
+
+    }
+    to{
+        width: 60%;
+
+    }
+
+}
+/*-------------------------------------------Media Quary----------------------------------------*/
+
+@media all and (min-width: 768px) and (max-width: 1024px){
+
+    #name>hr {
+        width: 63vw;
+    }
+    #name {
+        left: 35vw;
+    }
+    #sp {
+        left: 26%;
+
+    }
+    #sp1 {
+        left: 26%;
+
+    }
+    #sp2 {
+        left: 26%;
+
+    }
+    #sp3 {
+        left: 26%;
+
+    }
+    #javah2{
+        top: 10%;
+    }
+    #oneAs{
+        width: 30%;
+        margin-right: 0;
+        margin-left: 12px;
+    }
+    #threeAs{
+        width: 30%;
+        margin-right: 0;
+        margin-left: 12px;
+    }
+    #twoAs{
+        width: 30%;
+        margin-right: 0;
+        margin-left: 12px;
+    }
+    #onePo{
+        width: 30%;
+        margin-right: 0;
+        margin-left: 12px;
+    }
+    #threePo{
+        width: 30%;
+        margin-right: 0;
+        margin-left: 12px;
+    }
+    #twoPo{
+        width: 30%;
+        margin-right: 0;
+        margin-left: 12px;
+    }
+    header>p>b{
+        display: none;
+    }
+}
+/*--------------------------------------------------------------------------------------------*/
+@media all and (min-width: 425px) and (max-width: 768px){
+    #headWall {
+        height: 45vh;
+
+    }
+    #profilePic {
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        overflow: hidden;
+    }
+    #profilePic>img {
+        width: 200px;
+        height: 200px;
+    }
+    header{
+        display: none;
+    }
+    #name>hr {
+        width: 79vw;
+        height: 2px;
+    }
+    #name {
+        height: 118px;
+        width: 79%;
+        bottom: 121px;
+        left: 12vw;
+    }
+    #name h1{
+        font-size: 5vw;
+    }
+    #name h2{
+        font-size: 16px;
+    }
+    #txtAbout {
+        margin-left: 27px;
+        font-size: 32px;
+        bottom: 32vh;
+    }
+    #txtSkill {
+        margin-left: 27px;
+        font-size: 32px;
+    }
+    #txtAssingment {
+        margin-left: 27px;
+        font-size: 32px;
+    }
+    #txtProject {
+        margin-left: 27px;
+        font-size: 32px;
+    }
+    #skill>div:first-child {
+        height: 80px;
+        width: 80px;
+
+    }
+    #skill>div:nth-child(2) {
+        height: 80px;
+        width: 80px;
+
+    }
+    #skill>div:nth-child(3) {
+        height: 80px;
+        width: 80px;
+
+    }
+    #skill>div:nth-child(4) {
+        height: 80px;
+        width: 80px;
+
+    }
+    #sp {
+        width: 70%;
+        bottom: 93%;
+        left: 164px;
+        animation: skil5 10s infinite;
+    }
+    #sp1 {
+        width: 70%;
+        bottom: 69%;
+        left: 164px;
+        animation: skill6 10s infinite;
+    }
+    #sp2 {
+        width: 70%;
+        bottom: 44%;
+        left: 164px;
+        animation: skill7 10s infinite;
+    }
+    #sp3 {
+        width: 70%;
+        bottom: 21%;
+        left: 164px;
+        animation: skill8 10s infinite;
+    }
+
+    @keyframes skil5 {
+        from{
+            width: 0;
+
+        }
+        to{
+            width: 60%;
+
+        }
+
+    }
+    @keyframes skill6 {
+        from{
+            width: 0;
+
+        }
+        to{
+            width: 40%;
+
+        }
+
+    }
+    @keyframes skill7 {
+        from{
+            width: 0;
+
+        }
+        to{
+            width: 55%;
+
+        }
+
+    }
+    @keyframes skill8 {
+        from{
+            width: 0;
+
+        }
+        to{
+            width: 50%;
+
+        }
+
+    }
+
+
+    #asingment {
+        display: flow-root;
+    }
+    #oneAs {
+        margin-right: 0;
+        width: 70vw;
+    }
+    #twoAs {
+        margin-right: 0;
+        width: 70vw;
+    }
+    #threeAs {
+        margin-right: 0;
+        width: 70vw;
+    }
+    #project {
+        display: flow-root;
+    }
+    #onePo {
+        margin-right: 0;
+        width: 70vw;
+    }
+    #twoPo {
+        margin-right: 0;
+        width: 70vw;
+    }
+    #threePo {
+        margin-right: 0;
+        width: 70vw;
+    }
+
+    #javah2 {
+        top: 6%;
+        left: 41%;
+    }
+    #mysqlh2{
+        left: 41%;
+        top: 79%;
+    }
+    #cssh2{
+        left: 41%;
+        top: 31%;
+    }
+    #htmlh2{
+        left: 41%;
+        top: 56%;
+    }
+
+
+
+
+
+}
+/*----------------------------------------------------------------------------------------*/
+@media all and (min-width: 375px) and (max-width: 425px){
+    #headWall {
+        height: 45vh;
+
+    }
+    #profilePic {
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        overflow: hidden;
+    }
+    #profilePic>img {
+        width: 200px;
+        height: 200px;
+    }
+    header{
+        display: none;
+    }
+    #name>hr {
+        width: 79vw;
+        height: 2px;
+    }
+    #name {
+        height: 118px;
+        width: 79%;
+        bottom: 121px;
+        left: 12vw;
+    }
+    #name h1{
+        font-size: 5vw;
+    }
+    #name h2{
+        font-size: 16px;
+    }
+    #txtAbout {
+        margin-left: 27px;
+        font-size: 32px;
+        bottom: 32vh;
+    }
+    #txtSkill {
+        margin-left: 27px;
+        font-size: 32px;
+    }
+    #txtAssingment {
+        margin-left: 27px;
+        font-size: 32px;
+    }
+    #txtProject {
+        margin-left: 27px;
+        font-size: 32px;
+    }
+    #skill>div:first-child {
+        height: 80px;
+        width: 80px;
+
+    }
+    #skill>div:nth-child(2) {
+        height: 80px;
+        width: 80px;
+
+    }
+    #skill>div:nth-child(3) {
+        height: 80px;
+        width: 80px;
+
+    }
+    #skill>div:nth-child(4) {
+        height: 80px;
+        width: 80px;
+
+    }
+    #sp {
+        width: 70%;
+        bottom: 93%;
+        left: 37%;
+        animation: skil5 10s infinite;
+    }
+    #sp1 {
+        width: 70%;
+        bottom: 69%;
+        left: 37%;
+        animation: skill6 10s infinite;
+    }
+    #sp2 {
+        width: 70%;
+        bottom: 44%;
+        left: 37%;
+        animation: skill7 10s infinite;
+    }
+    #sp3 {
+        width: 70%;
+        bottom: 21%;
+        left: 37%;
+        animation: skill8 10s infinite;
+    }
+
+    @keyframes skil5 {
+        from{
+            width: 0;
+
+        }
+        to{
+            width: 60%;
+
+        }
+
+    }
+    @keyframes skill6 {
+        from{
+            width: 0;
+
+        }
+        to{
+            width: 40%;
+
+        }
+
+    }
+    @keyframes skill7 {
+        from{
+            width: 0;
+
+        }
+        to{
+            width: 55%;
+
+        }
+
+    }
+    @keyframes skill8 {
+        from{
+            width: 0;
+
+        }
+        to{
+            width: 50%;
+
+        }
+
+    }
+    important #javah2 {
+
+        top: 6%;
+        left: 36%
+    }
+
+    #asingment {
+        display: flow-root;
+    }
+    #oneAs {
+        margin-right: 0;
+        width: 70vw;
+    }
+    #twoAs {
+        margin-right: 0;
+        width: 70vw;
+    }
+    #threeAs {
+        margin-right: 0;
+        width: 70vw;
+    }
+    #project {
+        display: flow-root;
+    }
+    #onePo {
+        margin-right: 0;
+        width: 70vw;
+    }
+    #twoPo {
+        margin-right: 0;
+        width: 70vw;
+    }
+    #threePo {
+        margin-right: 0;
+        width: 70vw;
+    }
+
+    #javah2 {
+        top: 6%;
+        left: 41%;
+    }
+    #mysqlh2{
+        left: 41%;
+        top: 79%;
+    }
+    #cssh2{
+        left: 41%;
+        top: 31%;
+    }
+    #htmlh2{
+        left: 41%;
+        top: 56%;
+    }
+
+
+
+
+}
+/*--------------------------------------------------------------------------------------------*/
+@media all and (min-width: 320px) and (max-width: 375px){
+    #headWall {
+        height: 45vh;
+
+    }
+    #profilePic {
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        overflow: hidden;
+    }
+    #profilePic>img {
+        width: 200px;
+        height: 200px;
+    }
+    header{
+        display: none;
+    }
+    #name>hr {
+        width: 79vw;
+        height: 2px;
+    }
+    #name {
+        height: 118px;
+        width: 79%;
+        bottom: 121px;
+        left: 12vw;
+    }
+    #name h1{
+        font-size: 5vw;
+    }
+    #name h2{
+        font-size: 16px;
+    }
+    #txtAbout {
+        margin-left: 27px;
+        font-size: 32px;
+        bottom: 32vh;
+    }
+    #txtSkill {
+        margin-left: 27px;
+        font-size: 32px;
+    }
+    #txtAssingment {
+        margin-left: 27px;
+        font-size: 32px;
+    }
+    #txtProject {
+        margin-left: 27px;
+        font-size: 32px;
+    }
+    #skill>div:first-child {
+        height: 65px;
+        width: 65px;
+        margin-left: 20px;
+
+    }
+    #skill>div:nth-child(2) {
+        height: 65px;
+        width: 65px;
+        margin-left: 20px;
+    }
+    #skill>div:nth-child(3) {
+        height: 65px;
+        width: 65px;
+        margin-left: 20px;
+    }
+    #skill>div:nth-child(4) {
+        height: 65px;
+        width: 65px;
+        margin-left: 20px;
+    }
+    #sp {
+        width: 70%;
+        bottom: 93%;
+        left: 37%;
+        animation: skil5 10s infinite;
+    }
+    #sp1 {
+        width: 70%;
+        bottom: 69%;
+        left: 37%;
+        animation: skill6 10s infinite;
+    }
+    #sp2 {
+        width: 70%;
+        bottom: 44%;
+        left: 37%;
+        animation: skill7 10s infinite;
+    }
+    #sp3 {
+        width: 70%;
+        bottom: 21%;
+        left: 37%;
+        animation: skill8 10s infinite;
+    }
+
+    @keyframes skil5 {
+        from{
+            width: 0;
+
+        }
+        to{
+            width: 60%;
+
+        }
+
+    }
+    @keyframes skill6 {
+        from{
+            width: 0;
+
+        }
+        to{
+            width: 40%;
+
+        }
+
+    }
+    @keyframes skill7 {
+        from{
+            width: 0;
+
+        }
+        to{
+            width: 55%;
+
+        }
+
+    }
+    @keyframes skill8 {
+        from{
+            width: 0;
+
+        }
+        to{
+            width: 50%;
+
+        }
+
+    }
+
+
+    #asingment {
+        display: flow-root;
+    }
+    #oneAs {
+        margin-right: 0;
+        width: 70vw;
+    }
+    #twoAs {
+        margin-right: 0;
+        width: 70vw;
+    }
+    #threeAs {
+        margin-right: 0;
+        width: 70vw;
+    }
+    #project {
+        display: flow-root;
+    }
+    #onePo {
+        margin-right: 0;
+        width: 70vw;
+    }
+    #twoPo {
+        margin-right: 0;
+        width: 70vw;
+    }
+    #threePo {
+        margin-right: 0;
+        width: 70vw;
+    }
+    #javah2 {
+        top: 6%;
+        left: 41%;
+    }
+    #mysqlh2{
+        left: 41%;
+        top: 79%;
+    }
+    #cssh2{
+        left: 41%;
+        top: 31%;
+    }
+    #htmlh2{
+        left: 41%;
+        top: 56%;
+    }
+    body main #mainsection #skill div img{
+        left: 7px !important;
+    }
+
+
+
+
+
+
+
+
+}
+/*----------------------------------------------------------------------------------------------*/
+@media all and (min-width: 0) and (max-width: 320px){
+    #headWall {
+        height: 45vh;
+
+    }
+    #profilePic {
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        overflow: hidden;
+    }
+    #profilePic>img {
+        width: 200px;
+        height: 200px;
+    }
+    header{
+        display: none;
+    }
+    #name>hr {
+        width: 79vw;
+        height: 2px;
+    }
+    #name {
+        height: 118px;
+        width: 79%;
+        bottom: 121px;
+        left: 12vw;
+    }
+    #name h1{
+        font-size: 5vw;
+    }
+    #name h2{
+        font-size: 16px;
+    }
+    #txtAbout {
+        margin-left: 27px;
+        font-size: 32px;
+        bottom: 32vh;
+    }
+    #txtSkill {
+        margin-left: 27px;
+        font-size: 32px;
+    }
+    #txtAssingment {
+        margin-left: 27px;
+        font-size: 32px;
+    }
+    #txtProject {
+        margin-left: 27px;
+        font-size: 32px;
+    }
+    #skill>div:first-child {
+        height: 65px;
+        width: 65px;
+        margin-left: 20px;
+
+    }
+    #skill>div:nth-child(2) {
+        height: 65px;
+        width: 65px;
+        margin-left: 20px;
+    }
+    #skill>div:nth-child(3) {
+        height: 65px;
+        width: 65px;
+        margin-left: 20px;
+    }
+    #skill>div:nth-child(4) {
+        height: 65px;
+        width: 65px;
+        margin-left: 20px;
+    }
+    #sp {
+        width: 70%;
+        bottom: 93%;
+        left: 37%;
+        animation: skil5 10s infinite;
+    }
+    #sp1 {
+        width: 70%;
+        bottom: 69%;
+        left: 37%;
+        animation: skill6 10s infinite;
+    }
+    #sp2 {
+        width: 70%;
+        bottom: 44%;
+        left: 37%;
+        animation: skill7 10s infinite;
+    }
+    #sp3 {
+        width: 70%;
+        bottom: 21%;
+        left: 37%;
+        animation: skill8 10s infinite;
+    }
+
+    @keyframes skil5 {
+        from{
+            width: 0;
+
+        }
+        to{
+            width: 60%;
+
+        }
+
+    }
+    @keyframes skill6 {
+        from{
+            width: 0;
+
+        }
+        to{
+            width: 40%;
+
+        }
+
+    }
+    @keyframes skill7 {
+        from{
+            width: 0;
+
+        }
+        to{
+            width: 55%;
+
+        }
+
+    }
+    @keyframes skill8 {
+        from{
+            width: 0;
+
+        }
+        to{
+            width: 50%;
+
+        }
+
+    }
+
+
+    #asingment {
+        display: flow-root;
+    }
+    #oneAs {
+        margin-right: 0;
+        width: 70vw;
+    }
+    #twoAs {
+        margin-right: 0;
+        width: 70vw;
+    }
+    #threeAs {
+        margin-right: 0;
+        width: 70vw;
+    }
+    #project {
+        display: flow-root;
+    }
+    #onePo {
+        margin-right: 0;
+        width: 70vw;
+    }
+    #twoPo {
+        margin-right: 0;
+        width: 70vw;
+    }
+    #threePo {
+        margin-right: 0;
+        width: 70vw;
+    }
+    #javah2 {
+        top: 6%;
+        left: 41%;
+    }
+    #mysqlh2{
+        left: 41%;
+        top: 79%;
+    }
+    #cssh2{
+        left: 41%;
+        top: 31%;
+    }
+    #htmlh2{
+        left: 41%;
+        top: 56%;
+    }
+    body main #mainsection #skill div img{
+        left: 7px !important;
+    }
+
+
+
+
+
+
+
+
+}

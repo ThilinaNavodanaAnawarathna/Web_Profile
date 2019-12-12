@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>G+ Super City</title>
+    <meta name="viewport"content="width=device-width,initial-scale">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+
+
+<header>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <h1 class="text-warning">G+ Super City</h1>
+        <div class="btn-group">
+            <button class="btn btn-success border" id="linkcustomer">Customer Form</button>
+            <button class="btn btn-success border " id="linkitem">Item Form</button>
+            <button class="btn btn-success border " id="linkorders">Order Form</button>
+        </div>
+    </nav>
+</header>
+<br>
+<br>
+<br>
+
+<!--order Form-->
+<section id="orderform">
+
+<section class="btn-group ">
+<section class="m-2 bg-light col-7">
+    <form>
+        <div class="form-row">
+
+            <div class="form-group col-md-6">
+                <label for="cusid1">Customer ID</label>
+                <input type="text" class="form-control" id="cusid1" placeholder="Customer ID">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="ordid">Order ID</label>
+                <input type="text" class="form-control" id="ordid" placeholder="orderid">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="date">Date</label>
+            <input type="date" class="form-control" id="date" placeholder="Date">
+        </div>
+        <div class="form-row">
+
+            <div class="form-group col-md-6">
+                <label for="item">Item Name</label>
+                <select id="item" class="form-control">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                </select>
+            </div>
+            <div class="form-group col-md-2">
+                <label for="crqty">Current Qty</label>
+                <input type="text" class="form-control" id="crqty">
+            </div>
+            <div class="form-group col-md-2">
+                <label for="price1">Unit Price</label>
+                <input type="text" class="form-control" id="price1">
+            </div>
+            <div class="form-group col-md-2">
+                <label for="qty1">Qty</label>
+                <input type="number" class="form-control" id="qty1">
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Add Item</button>
+        <br>
+    </form>
+</section>
+<section class="bg-light m-2 col-8 ">
+    <table class="table">
+        <thead class="thead-dark">
+        <tr>
+            <th scope="col">Description</th>
+            <th scope="col">Unit Price</th>
+            <th scope="col">Qty</th>
+            <th scope="col">Total</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th>Sunlight</th>
+            <td>30.00</td>
+            <td>5</td>
+            <td>150.00</td>
+        </tr>
+        <tr>
+            <th>Signal L</th>
+            <td>120.00</td>
+            <td>2</td>
+            <td>240.00</td>
+        </tr>
+        <tr>
+            <th>Atles 80pg</th>
+            <td>45.00</td>
+            <td>4</td>
+            <td>180.00</td>
+        </tr>
+        </tbody>
+    </table>
+    <button type="button" class="btn btn-primary">Edit</button>
+    <button type="button" class="btn btn-danger">Remove</button>
+
+
+</section>
+</section>
+
+<section class="bg-light m-2">
+    <form>
+        <br>
+        <div class="form-group">
+            <label for="total">Total Ammount</label>
+            <input type="text" class="form-control" id="total" placeholder="Rs.00.00">
+        </div>
+        <div class="form-group">
+            <label for="recived">Amount Received</label>
+            <input type="text" class="form-control" id="recived" placeholder="Rs.00.00">
+        </div>
+        <div class="form-group">
+            <label for="dis">Discount</label>
+            <input type="text" class="form-control" id="dis" placeholder="Rs.00.00">
+        </div>
+        <div class="form-group">
+            <label for="bal">Balance Amount</label>
+            <input type="text" class="form-control" id="bal" placeholder="Rs.00.00">
+        </div>
+        <button type="button" class="btn btn-success">Place Order</button>
+        <button type="button" class="btn btn-danger">Cansal</button>
+    </form>
+</section>
+<!--<footer>-->
+    <!--<nav class="navbar navbar-dark bg-dark">-->
+        <!--<h1 class="text-warning text-center">Thank You....</h1>-->
+
+    <!--</nav>-->
+<!--</footer>-->
+
+
+
+
+
+
+
+</section>
+
+<!--customer form-->
+
+<section id="customerform">
+
+    <section class="m-2 bg-light">
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="cusname"id="name">Customer Name</label>
+                    <input type="text" class="form-control" id="cusname" placeholder="Customer Name">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="cusid"id="id">Customer ID</label>
+                    <input type="text" class="form-control" id="cusid" placeholder="Customer ID">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="Address">Customer Address</label>
+                <input type="text" class="form-control" id="Address" placeholder="Address">
+            </div>
+            <div class="form-group">
+                <label for="contact">Customer Contact</label>
+                <input type="tel" class="form-control" id="contact" placeholder="Contact">
+            </div>
+
+
+
+            <button type="button" class="btn btn-success"id="btnsave">Save</button>
+            <button type="button" class="btn btn-primary">Update</button>
+            <button type="button" class="btn btn-secondary">Search</button>
+            <button type="button" class="btn btn-danger">Remove</button>
+            <br>
+        </form>
+    </section>
+    <section class="bg-light m-2">
+        <table class="table">
+            <thead class="thead-dark">
+            <tr>
+                <th scope="col">Customer ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Address</th>
+                <th scope="col">Contact</th>
+            </tr>
+            </thead>
+            <tbody id="table">
+            <!--<tr>-->
+                <!--<th>C001</th>-->
+                <!--<td>Amith</td>-->
+                <!--<td>Horana</td>-->
+                <!--<td>0763451237</td>-->
+            <!--</tr>-->
+            <!--<tr>-->
+                <!--<th>C002</th>-->
+                <!--<td>Kamal</td>-->
+                <!--<td>Gall</td>-->
+                <!--<td>0707125903</td>-->
+            <!--</tr>-->
+            <!--<tr>-->
+                <!--<th>C003</th>-->
+                <!--<td>Rangani</td>-->
+                <!--<td>Beruwala</td>-->
+                <!--<td>0776108426</td>-->
+            <!--</tr>-->
+            <!--<tr>-->
+                <!--<th>C004</th>-->
+                <!--<td>Kalum</td>-->
+                <!--<td>Ampara</td>-->
+                <!--<td>0777128426</td>-->
+            <!--</tr>-->
+            <!--<tr>-->
+                <!--<th>C005</th>-->
+                <!--<td>Hasanga</td>-->
+                <!--<td>Mathugama</td>-->
+                <!--<td>0716108316</td>-->
+            <!--</tr>-->
+            <!--<tr>-->
+                <!--<th>C006</th>-->
+                <!--<td>Pushpa</td>-->
+                <!--<td>Horana</td>-->
+                <!--<td>0756108099</td>-->
+            <!--</tr>-->
+            </tbody>
+        </table>
+
+
+    </section>
+    <!--<footer>-->
+        <!--<nav class="navbar navbar-dark bg-dark ">-->
+            <!--<h1 class="text-warning text-center container center_div">Thank You....</h1>-->
+
+        <!--</nav>-->
+    <!--</footer>-->
+
+
+
+
+
+
+
+</section>
+
+<!--item form-->
+
+<section id="itemform">
+    <!--<header>-->
+        <!--<nav class="navbar navbar-dark bg-dark fixed-top">-->
+            <!--<h1 class="text-warning">G+ Super City</h1>-->
+            <!--<div class="btn-group">-->
+                <!--<button class="btn btn-success border" onclick="location.href='POS-perchasOrder.html'">Order Form</button>-->
+                <!--<button class="btn btn-success border "onclick="location.href='Customer Form.html'">Customer Form</button>-->
+            <!--</div>-->
+        <!--</nav>-->
+    <!--</header>-->
+    <!--<br>-->
+    <!--<br>-->
+    <!--<br>-->
+
+    <section class="m-2 bg-light">
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="itmname">Description</label>
+                    <input type="text" class="form-control" id="itmname" placeholder="Description">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="itmid">Item ID</label>
+                    <input type="text" class="form-control" id="itmid" placeholder="Item ID">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="itmprice">Unit Price</label>
+                <input type="text" class="form-control" id="itmprice" placeholder="Unit Price">
+            </div>
+            <div class="form-group">
+                <label for="itmqty">Qty</label>
+                <input type="number" class="form-control" id="itmqty" placeholder="Qty">
+            </div>
+
+
+
+            <button type="button" id="itmsave" class="btn btn-success">Save</button>
+            <button type="button" class="btn btn-primary">Update</button>
+            <button type="button" class="btn btn-secondary">Search</button>
+            <button type="button" class="btn btn-danger">Remove</button>
+            <br>
+        </form>
+    </section>
+    <section class="bg-light m-2">
+        <table class="table">
+            <thead class="thead-dark">
+            <tr>
+                <th scope="col">Item ID</th>
+                <th scope="col">Description</th>
+                <th scope="col">Unit Price</th>
+                <th scope="col">Qty</th>
+            </tr>
+            </thead>
+            <tbody id="tblitem">
+            <!--<tr>-->
+                <!--<th>I001</th>-->
+                <!--<td>Atles 80pg</td>-->
+                <!--<td>45.00</td>-->
+                <!--<td>420</td>-->
+            <!--</tr>-->
+            <!--<tr>-->
+                <!--<th>I002</th>-->
+                <!--<td>Sunlight</td>-->
+                <!--<td>30.00</td>-->
+                <!--<td>102</td>-->
+            <!--</tr>-->
+            <!--<tr>-->
+                <!--<th>I003</th>-->
+                <!--<td>Signal L</td>-->
+                <!--<td>120.00</td>-->
+                <!--<td>75</td>-->
+            <!--</tr>-->
+            <!--<tr>-->
+                <!--<th>I004</th>-->
+                <!--<td>Red rice</td>-->
+                <!--<td>92.00</td>-->
+                <!--<td>400</td>-->
+            <!--</tr>-->
+            <!--<tr>-->
+                <!--<th>I005</th>-->
+                <!--<td>chocalot M</td>-->
+                <!--<td>60.00</td>-->
+                <!--<td>42</td>-->
+            <!--</tr>-->
+            <!--<tr>-->
+                <!--<th>I006</th>-->
+                <!--<td>Coconut oil</td>-->
+                <!--<td>270.00</td>-->
+                <!--<td>87</td>-->
+            <!--</tr>-->
+            </tbody>
+        </table>
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+</section>
+<br>
+<br>
+
+<footer>
+    <nav class="navbar navbar-dark bg-dark">
+        <h1 class="text-warning text-center">Thank You....</h1>
+
+    </nav>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="../jquary/jquery-3.4.1.min.js"></script>
+<script src="Controller/DashBordController.js"></script>
+<script src="Controller/CustomerController.js"></script>
+<script src="Controller/ItemController.js"></script>
+<script src="DB/Db.js"></script>
+<script src="Model/Customer.js"></script>
+<script src="Model/Item.js"></script>
+</body>
+</html>
